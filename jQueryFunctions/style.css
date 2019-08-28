@@ -135,12 +135,7 @@
 #main_content h3 {
 	color:#26659E;
 }
-/*#main_content p{
-font-size: 15px;
-}
-#main_content li {
-font-size: 15px;
-}*/
+
 
 #sub_header{
 	width: auto;
@@ -159,6 +154,8 @@ font-size: 15px;
 	width: 40px;
 	height:40px;
 	margin-top: 15px;
+	position: relative;
+	float: left;
 	display: inline-block;
 }
 #phone{

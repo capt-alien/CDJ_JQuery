@@ -5,6 +5,8 @@
 	<meta charseet="utf-8">
 	<link rel="stylesheet" href="style.css">
 	<title>Da Inter net</title>
+	<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+
 </head>
 <body>
 	<div id='container'>
@@ -85,4 +87,55 @@
 
 		<!-- END OF DOC -->
 	</div>
+
+		<script>
+
+	$("#button_a").click(function() {
+  	alert( "You Clicked a button" );
+	});
+
+// .hide
+		// With the element initially shown, we can hide it slowly:
+	$( "#ninja" ).click(function() {
+		$( "#ninja"  ).hide( "slow", function() {
+		});
+		});
+
+// .show
+	$( "#ad_button" ).click(function() {
+		$( "#ninja"  ).show( "slow", function() {
+		});
+		});
+
+// .toggle
+	$( "#big_three_pic" ).click(function() {
+		$( "#b3_text" ).hide()
+		$( "#b3_text" ).slideDown( "slow", function() {
+		// $( "#b3_text" ).slideUp( "slow", function() {
+
+		// Animation complete.
+		});
+		});
+
+
+// .slideToggle/ fade in/ fade out
+$( "#phone" ).click(function() {
+  $( "#sh_right_text" ).slideToggle( "slow", function() {
+
+    // Animation complete.
+  });
+});
+
+
+// .addClass
+// .before
+// .after
+// .append
+// .html
+// .attr
+// .val
+// .text
+
+
+	</script>
 </body>
