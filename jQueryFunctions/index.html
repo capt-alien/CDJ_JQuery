@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lan="en">
+<head>
+	<meta charseet="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Da Inter net</title>
+</head>
+<body>
+	<div id='container'>
+		<!-- HEAD -->
+		<div id='head'>
+
+			<div id='header_1'>
+				<img id='logo' src='images/globe.png'>
+				<h1>Da Interwebz</h1>
+			</div>
+			<div id='header_2'>
+				<h2>Da World Wide Web of Stuff</h2>
+			</div>
+		</div>
+		<!-- Left SideBar -->
+		<div id='left_sidebar'>
+			<!-- resources -->
+			<div id='resources'>
+				<h3>So, What is the <span class='r'>internet</span>?</h3>
+				<p>An <span class='db'>inter</span>connected <span class='db'>Net</span>work of computers all around the world!</p>
+				<button id='button_a' type='button'>WATCH A VIDEO</button>
+				<button id='button_b' type='button'>MORE RESOURCES</button>
+			</div>
+			<!-- Dojo ad -->
+			<div id="ad">
+				<h2>Reinvent your career in just 14 weeks</h2>
+				<img id='ninja' src='images/ninja.png' alt='ninja'>
+				<button id='ad_button' type='button'>Learn More >>>></button>
+			</div>
+		</div>
+
+		<!-- Main Content -->
+		<div id='main_content'>
+			<!-- Subheader -->
+			<div id="sub_header">
+				<div id="sh_left">
+					<img id='house' src='images/home.png' alt='house'>
+					<h5>DNS</h5>
+				</div>
+				<div id="sh_right">
+					<img id='phone' src='images/phone.png' alt='phone'>
+					<div id='sh_right_text'>
+						<p>Mon-Fri 9a.m. - 5p.m.(EST)</p>
+						<h3>855.967.3787</h3>
+						<p>International +1.617.963.0555</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- main content -->
+			<div id='content'>
+				<h3>Clients and Servers</h3>
+				<p>Computers connected to the <span class='lb'>Web</span> are called <span class='bold'>clients</span> and <span class='bold'>servers</span>.</p>
+				<ul>
+					<li><span class='lb'>Clients</span> are the typical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connectedto your mobile network) and <span class='lb'>Web-accessing</span> software available on those devices(usually a web browser like Firefox or Chrome). </li>
+					<li><span class='lb'>Servers</span> are computers that store <span class='lb'>webpages, sites, or apps</span>. When a client wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in user's web browser.</li>
+					<img id='req_res' src="images/client_server.jpg" alt="req/res cycle">
+					<h3>So What Actually Happens?</h3>
+					<ol>
+						<li>The browser goes to the <span class='lb'>DNS server</span> andfinds the real address of the <span class='lb'>server</span> that the website lives on.</li>
+						<li>The browser sends an <span class='lb'>HTTP</span> request message to server asking it to send a copy of the website to the client.</li>
+						<li>If the server approves the client's request, the server sends the client a <span class='lb'>"200 OK"</span> message, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series of small chunks.</li>
+						<li>The browser assembles the small chunks in a complete website and displays it to you!</li>
+					</ol>
+
+				</div>
+				<!-- The big 3 -->
+				<div id='the_big_three'>
+					<img id='big_three_pic' src='images/html.png' alt="Big Three">
+					<div id='b3_text'>
+						<h3>The Big 3 - HTML, CSS, Javascript</h3>
+						<p>While the server can process information in many different languages, the files that they server to the client are always to besome combination of HTML, CSS and JavaScript!.</p>
+						<p>Learn more about the Big 3 here!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- END OF DOC -->
+	</div>
+</body>
