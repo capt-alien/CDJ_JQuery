@@ -1,0 +1,29 @@
+* {
+	outline: 1px dotted red;
+	margin: 0px;
+    }
+
+#ninja{
+    	width: auto;
+    	height: 200px;
+    }
+#container{
+	width: auto;
+	height: 900px;
+	text-align:center;
+}
+#dojo{
+	width:800px;
+	height: 400px;
+	margin-left: 250px;
+}
+.ninja_row{
+	width: 800px
+	height: 200px;
+	display: block;
+}
+.ninja{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
